@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALSMA PAYMENT</title>
+    <link rel="stylesheet" href="foot and head.css">
+    <link rel="stylesheet" href="grid.css">   
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <div class="header w" >
+        <div class="logo">TASLMA</div>
+        <div class="navcontainer">
+            <a href="#" class="open toggle-btn"><img src="../cart/reorder.png"width="50"/></a>
+            <nav class="nav" >
+                <ul>
+                    <li>
+                        <a href="product list.html" div class="nav">category</a>
+                    </li>
+                    <li>
+                        <a href="#" div class="nav">contact</a>
+                    </li>
+                    <li>
+                        <a href="#" div class="nav">delivery</a>
+                    </li>
+                    <li>
+                        <a href="#" div class="nav">about</a>
+                    </li>
+                </ul>
+            </nav>    
+        </div>
+
+        <div class="icon">
+            <a class="icon1"href="#"><img src="../cart/search.png" width="50" height="50"/></a>
+            <a class="icon2"href="cart.html"><img src="../cart/cart.png" width="50" height="50"/></a>
+            <a class="icon3"href="#"><img src="../cart/user.png" width="50" height="50"/></a>
+        </div>
+    </div>
+
+    <!-- payment1 -->
+    <div><h1>PAYMENT</h1></div><br/>
+    <div class="paymentbox w">
+        <a class="backbutton w"href="product list.html"target="_self">Back</a>
+        <div class="cartcontent">
+            <div class="info-register">
+                <h2>Enter your contact detais</h2><br/>
+                <h3>first name</h3><br/>
+                <input class="info-register-boxline" id="userNname" name="userName"type="text"autofocus required/><label id="name_trip"></label><br/>
+                <h3>last name</h3><br/>
+                <input class="info-register-boxline" id="userlastNname" name="userlastName" type="text" autofocus required/><label id="lastname_trip"></label><br/>
+                <h3>e-mail address</h3><br/>
+                <input class="info-register-boxline" id="email" type="email" required/> <label id="email_trip"></label><br/>
+                <h3>phone number</h3><br/>
+                <input class="info-register-boxline" id="phoneNumber" name="phoneNumber" type="text" autofocus required/><label id="phoneNumber_trip"></label><br/>
+                <a  href="#"target="_self"></a><input type="button" class="nextbutton" onclick="submitT()"value="Next"></a>
+            </div>
+            <div class="order-information">
+                <div class="order-information-boxline">Order</div>
+                <div class="order-itemone">
+                    <img class="order-itempicture" src="../cart/white wool chair.png" width="300"height="300"/>
+                    <div class="order-itemtext">white wool chair</div>
+                    <div class="order-itemnumber">1</div>
+                    <div class="order-itemtext">$1995</div>
+                    <div class="order-trash"><img src="../cart/trash.svg" width="50"/></div>
+                </div>
+                <div class="order-itemtwo">
+                    <img class="order-itempicture" src="../cart/Allegory Vanity.png" width="300"height="300"/>
+                    <div class="order-itemtext">Allegory Vanity</div>
+                    <div class="order-itemnumber">2</div>
+                    <div class="order-itemtext">$9990</div>
+                    <div class="order-trash"><img src="../cart/trash.svg" width="50"/></div>
+                </div>
+                <div class="order-questionline1">
+                    <div class="order-question">Subtotal:</div>
+                    <div class="order-answer">$11,985</div>
+                </div>
+                <div class="order-questionline2">
+                    <div class="order-question">Discount:</div>
+                    <div class="order-answer">$985</div>
+                </div>
+                <div class="order-questionline3">
+                    <div class="order-question">Delivery:</div>
+                    <div class="order-answer">Free</div>
+                </div>
+                <div class="order-questionline4">
+                    <div class="order-question">Total:</div>
+                    <div class="order-answer">$11,000</div> 
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="footer w">
+        <div class="line"></div>
+        <div class="brandicon">
+            <div class="brandicon-image"><img src="../cart/facebook.png" width="30" height="50"/></div>
+            <div class="brandicon-image"><img src="../cart/twitter.png" width="50" height="50"/></div>
+            <div class="brandicon-image"><img src="../cart/instagram.png" width="50" height="50"/></div>
+            <div class="brandicon-image"><img src="../cart/youtube.png" width="50" height="50"/></div>
+        </div>
+        <div class="servicename-box">
+            <div class="servicename">
+                <p>Collection</p>
+                <p>Gifts</p>
+                <p>Order Swatches</p>
+                <p>Lookbooks</p>
+                <p>Journal</p>
+            </div>
+            <div class="servicename">
+                <p>Our Quality</p>
+                <p>Comfort Guide</p>
+                <p>Measuring Guide</p>
+                <p>Reviews</p>
+                <p>FAQ</p>
+            </div>
+            <div class="servicename">
+                <p>Contact Us</p>
+                <p>Trade Program</p>
+                <p>Careers</p>
+                <p>Privacy Policy</p>
+                <p>Email</p>
+            </div>
+        </div>
+        <div class="caption">
+            <p>©2022 Talsma Furniture. All rights reserved. | Powered by OmniVue® - www.microdinc.com | Site Map</p>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

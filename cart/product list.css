@@ -1,0 +1,165 @@
+
+.productlistbox{
+    height: 2300px;
+    margin: auto;
+    border: 3px solid transparent;
+    border-top-color: #570F13;
+}
+.productlistbox .w {
+    width: 1880px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.leftbox-mobile{
+display: none;
+}
+.leftbox-FILTER-mobile{
+    display: none;
+}
+.leftbox-SORT-mobile{
+    display: none;
+}
+.leftbox {
+    float: left;
+    width: 432px;
+    height: 805px;
+    margin:48px 48px 20px 20px ;
+}
+.leftbox1 {
+    float: left;
+    width: 432px;
+    height: 322px;
+    background-color: #D6C4B9;
+    margin-bottom:48px;
+}
+.leftbox2 {
+    float: left;
+    width: 432px;
+    height: 388px;
+    background-color: #D6C4B9;
+}
+.leftbox-category {
+    text-align: center;
+    color: #570F13;
+    font-size: 30px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.leftbox-category-subtitle {
+    color: #570F13;
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.leftbox-category-subtitle-box{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #570F13;
+    margin-left: 20px;
+}
+.product-list{
+    float: left;
+    width: 1408px;
+    margin-top: 48px;
+}
+.product-list1{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+.product-list2{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.product-list3{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+.product-list4{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.product-list-picture{
+    margin-left:52.5px;
+    margin-right: 52.5px;
+}
+.product-list-picture img:hover{
+    transform: scale(1.1);
+}
+.poductlist-name{
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+}
+.poductlist-price {
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.poductlist-color{
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+}
+.addtocart-button{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 20px;
+    text-decoration:none;
+    color: #570F13;
+    margin-left: 275px;
+    border-radius: 40px;
+}
+.poductlist-colorspot{
+    width: 220px;
+    margin-top:20px;
+    margin-left: 217.5px;
+    margin-right: 217.5px;
+}
+.seemore-button{
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 36px;
+    color: #570F13;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left:604px;
+    margin-right:604px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}

@@ -1,0 +1,708 @@
+* {
+    margin:0;
+    padding:0;
+}
+.w {
+    width:1920px;
+    margin: auto;
+}
+/* homepage layout */
+.bodybox {
+    height: 742px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.bodybox .w {
+    height: 742px;
+    background: url(../cart/first\ pic.jpg) no-repeat top center;
+
+}
+.categories-bigbox{
+    height: 492px;
+    margin-top: 100px;
+}
+
+.feature-bigbox {
+    height: 547px;
+    margin-top: 100px;
+}
+.feature-button {
+    float: left;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 257px;
+    margin-bottom: 257px;
+}
+.category1 {
+    float:left;
+    width: 345px;
+    height: 200px;
+    background-color: #D6C4B9;
+    margin-left:62.5px;
+    margin-right:62.5px;
+    margin-bottom: 22px;
+    border-radius: 40px;
+}
+.category-name {
+    height: 30px;
+    font-size: 30px;
+    text-align:center;}
+.categoryimage180px {
+    width: 180px;
+    height: 115px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.categoryimage80px {
+    width: 80px;
+    height: 115px;
+    margin-left: 132.5px;
+    margin-right: 132.5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.categoryimage150px {
+    width: 150px;
+    height: 115px;
+    margin-left: 97.5px;
+    margin-right: 97.5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.categoryimage50px {
+    width: 50px;
+    height: 115px;
+    margin-left: 147.5px;
+    margin-right: 147.5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+a {color: #570F13;
+text-decoration: none;}
+li{
+    list-style: none;
+}
+.featured {
+    float: left;
+    width: 350px;
+    height: 480px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.feature-picture{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+}
+.productname {text-align: center;
+font-family: Century Gothic regular;
+font-size: 28px;
+color: #570F13;
+margin-top: 20px;
+margin-bottom: 20px;}
+.productprice{text-align: center;
+    font-family: Century Gothic Regular;
+    font-size: 28px;
+    color: #570F13;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+.searchbox {
+    height:100px;
+}
+.searchbox-line {
+    float: left;
+    width: 700px;
+    height: 70px;
+    background-color: #D6C4B9;
+    margin-left: 590px;
+    border-radius: 40px;
+    border: 3px solid #570F13;
+}
+.icon-search {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/* product listing */
+
+.productlistbox{
+    height: 2300px;
+    margin: auto;
+    border: 3px solid transparent;
+    border-top-color: #570F13;
+}
+.productlistbox .w {
+    width: 1880px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.leftbox-mobile{
+display: none;
+}
+.leftbox-FILTER-mobile{
+    display: none;
+}
+.leftbox-SORT-mobile{
+    display: none;
+}
+.leftbox {
+    float: left;
+    width: 432px;
+    height: 805px;
+    margin:48px 48px 20px 20px ;
+}
+.leftbox1 {
+    float: left;
+    width: 432px;
+    height: 322px;
+    background-color: #D6C4B9;
+    margin-bottom:48px;
+}
+.leftbox2 {
+    float: left;
+    width: 432px;
+    height: 388px;
+    background-color: #D6C4B9;
+}
+.leftbox-category {
+    text-align: center;
+    color: #570F13;
+    font-size: 30px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.leftbox-category-subtitle {
+    color: #570F13;
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.leftbox-category-subtitle-box{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #570F13;
+    margin-left: 20px;
+}
+.product-list{
+    float: left;
+    width: 1408px;
+    margin-top: 48px;
+}
+.product-list1{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+.product-list2{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.product-list3{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+.product-list4{
+    float: left;
+    width: 655px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.product-list-picture{
+    margin-left:52.5px;
+    margin-right: 52.5px;
+}
+.product-list-picture img:hover{
+    transform: scale(1.1);
+}
+.poductlist-name{
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+}
+.poductlist-price {
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.poductlist-color{
+    font-size: 38px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 20px;
+}
+.addtocart-button{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 20px;
+    text-decoration:none;
+    color: #570F13;
+    margin-left: 275px;
+    border-radius: 40px;
+}
+.poductlist-colorspot{
+    width: 220px;
+    margin-top:20px;
+    margin-left: 217.5px;
+    margin-right: 217.5px;
+}
+.seemore-button{
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 36px;
+    color: #570F13;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left:604px;
+    margin-right:604px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+/* individual product */
+.product-box{
+    width: 1880px;
+    height: 1100px;
+    border: 3px solid transparent;
+    border-top-color: #570F13;
+}
+
+.bigbox2-individual {
+    height: 547px;
+    margin-top: 100px;
+}
+.bigbox2-individual .w {
+    width: 1880px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.individualproduct {
+    float: left;
+    width: 780px;
+    height: 1000px;
+    margin-top: 48px;
+}
+.productpicturelarge {
+    width: 780px;
+    height: 780px;
+    background-color: #fff;
+}
+.productpicturesmall {
+    width: 780px;
+    height: 200px;
+    margin-top: 20px;
+}
+.productinfo-box {
+    float: left;
+    width: 1100px;
+    height: 1000px;
+    margin-top: 48px;
+}
+.itemtext {
+    width: 350px;
+    height: 40px;
+    font-size: 40px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+.poductlist-colorspot-individual{
+    width: 220px;
+    margin-top:100px;
+    margin-bottom: 77.5px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+.quantitytext {
+    width: 150px;
+    height: 40px;
+    font-size: 40px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 405px;
+    margin-right: 475px;
+}
+.quantitybutton {
+    width: 215px;
+    height: 40px;
+    background-color:#D6C4B9;
+    border: transparent;
+    margin-bottom: 100px;
+    margin-left: 375px;
+    margin-right: 375px;
+    border-radius: 40px;
+}
+
+.addtocart-button-large{
+    display: inline-block;
+    float: left;
+    width: 285px;
+    height: 50px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 40px;
+    text-decoration:none;
+    color: #570F13;
+    margin-top: 20px;
+    margin-left: 355px;
+    margin-right: 375px;
+    border-radius: 40px;
+}
+.dimension-box{
+    width: 1880px;
+    height: 510px;
+    background-color: #D6C4B9;
+}
+.dimension{
+    float: left;
+    width: 900px;
+    height: 510px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.dimension p{
+    padding: 10px;
+}
+/* order */
+.order-information {
+    float: left;
+    width:1230px;
+    height: 1100px;
+    background-color: white;
+    margin-top: 20px;
+}
+.order-information-boxline {
+    width:1230px ;
+    height: 80px;
+    font-size: 50px;
+    font-family: Century Gothic;
+    color: #570F13;
+    border: 2px solid transparent;
+    border-bottom-color: #570F13;
+}
+.order-itemone{
+    height: 300px;
+    border: solid 2px transparent;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.order-itemtwo{
+    height: 300px;
+    border: solid 2px transparent;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.order-itempicture{
+    float: left;
+    height: 300px;
+}
+.order-itemtext {
+    float: left;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top:150px;
+    margin-left: 40px;
+}
+.order-itemnumber {
+    float: left;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top:150px;
+    margin-left: 40px;
+}
+.order-trash {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 150px 150px 0px 0px;
+}
+.order-totalprice {
+    width: 406px;
+    height: 74px;
+    font-size: 60px;
+    font-family: Century Gothic;
+    color:#570F13;
+    margin-left: 1225px;
+}
+.order-question {
+    float: left;
+    width: 200px;
+    font-size: 30px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.order-answer{
+    float: right;
+    width: 200px;
+    font-size: 30px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.order-questionline1{
+    height:100px ;
+}
+.order-questionline2{
+    height:100px ;
+}
+.order-questionline3{
+    height:100px ;
+}
+.order-questionline4{
+    height:100px ;
+}
+/* payment */
+.paymentbox{
+    height: 1200px;
+    margin: auto;
+    border: 2px solid transparent;
+    border-top-color: #570F13;
+}
+.paymentbox .w {
+    width: 1880px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.cartcontent {
+    height: 1300px;
+}
+.info-register {
+    float: left;
+    width:630px;
+    height: 1100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.info-register-boxline{
+    width: 520px;
+    height: 60px;
+    border: 1px solid #570F13;
+    margin-left: 50px;
+}
+.nextbutton{
+    display: inline-block;
+    float: left;
+    width: 285px;
+    height: 50px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 40px;
+    text-decoration:none;
+    color: #570F13;
+    border: transparent;
+    margin-top: 70px;
+    margin-left: 172.5px;
+    margin-right: 172.5px;
+    border-radius: 40px;
+}
+.delivery-choice {
+    color: #570F13;
+    font-size: 30px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.cartbox{
+    height: 1600px;
+    margin: auto;
+}
+.cartbox .w {
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-decoration: none;
+}
+
+.itemone{
+    height: 450px;
+    border: solid 3px transparent;
+    border-top-color:#570F13;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.itemtwo{
+    height: 450px;
+    border: solid 3px transparent;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.itempicture{
+    float: left;
+    height: 350px;
+    margin:25px 25px 30px 25px;
+}
+.itemtext-cart {
+    float: left;
+    width: 350px;
+    height: 40px;
+    font-size: 40px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top:183px;
+    margin-bottom: 183px;
+    margin-left: 60px;
+}
+.trash {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 155px 155px 0px 0px;
+}
+.totalprice {
+    width: 406px;
+    height: 74px;
+    font-size: 60px;
+    font-family: Century Gothic;
+    color:#570F13;
+    margin-left: 1225px;
+}
+
+.enterbox {
+    width: 600px;
+    height: 80px;
+    border: solid 3px #570F13;
+    margin-left: 638px;
+    margin-right: 638px;
+}
+.applybutton{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 60px;
+    color: #570F13;
+    margin-top: 40px;
+    margin-left:840px;
+    margin-right:840px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border-color: transparent;
+}
+.longbutton{
+    display: inline-block;
+    float: left;
+    width: 610px;
+    height: 60px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 40px;
+    text-decoration:none;
+    color: #570F13;
+    border: transparent;
+    margin-top: 40px;
+    margin-left: 638px;
+    margin-right: 638px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+.content{
+    height: 500px; ;
+}
+.contenttext1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-top: 60px;
+}
+.contenttext2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+h1 {
+    font-family:Century Gothic Bold;
+    text-align: center;
+    margin-top: 40px;
+    color: #570F13;
+}
+h2{
+    text-align: center;
+    font-size: 38px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-bottom: 0px;
+}
+h3{
+    font-size: 34px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: Century Gothic;
+    color:#570F13;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

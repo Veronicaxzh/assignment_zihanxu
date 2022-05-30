@@ -1,0 +1,635 @@
+@media (max-device-width:420px) {
+    /* header */
+    .w {
+        width:420px;
+        margin: auto;
+    }
+    .header {
+        height: 75px;
+        background-color: #570F13;
+    }
+    .logo{
+        text-align: center;
+        font-size: 30px;
+        color:#F4EEE8;
+        font-family: Gotham Bold;
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+    .icon {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 5px;
+    }
+    /* hidden cart and serach button */
+    .icon2{
+        display: none;
+      }
+    .icon1 {
+        display: none;
+    }
+    /* 切换按钮 */
+    .toggle-btn{
+      display: inline-block;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: #570F13;
+        text-align: center;
+    }
+    .nav{
+        display: none;
+    }
+    .bodybox {
+        height: 160px;
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .bodybox .w {
+        width: 380px;
+        height:100px;
+        background: url(../picture/first\ pic.jpg) no-repeat;
+        background-size: cover;
+    
+    }
+    /* foot */
+    .footer {
+        height: 420px;
+        background-color: #570F13;
+        margin-top: 100px;
+    }
+    .line {
+        height: 30px;
+        background-color:#F4EEE8;
+        border: solid 3px transparent;
+        border-top-color:#570F13;
+    }
+    .brandicon {    
+        width:380px;
+        height:60px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .brandicon-image{
+        float: left;
+        width: 50px;
+        margin-left: 22.5px;
+        margin-right: 22.5px;
+        margin-top: 10px;
+    }
+    .servicename-box{
+        width: 380px;
+        height: 260px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .servicename {
+        float: left;
+        width: 110px;
+        height: 260px;
+        margin-left:10.3333px;
+        margin-right: 5.33px;
+    }
+    .servicename p{
+        font-family: Century Gothic Regular;
+        font-size: 16px;
+        color: #F4EEE8;
+    }
+    .caption {
+        width:380px;
+        height: 20px;
+        margin-top: 10px;
+    
+    }
+    .caption p {
+        text-align: center;
+        font-family: Segoe UI;
+        font-size: 6px;
+        color: #F4EEE8;
+    }
+    .content{
+        height: 240px; ;
+    }
+    .contenttext1{
+        text-align: center;
+        font-size: 30px;
+        font-family: Century Gothic;
+        color: #570F13;
+        margin-top: 40px;
+    }
+    .contenttext2{
+        text-align: center;
+        font-size: 20px;
+        font-family: Century Gothic;
+        color: #570F13;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+.longbutton {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 18px;
+    text-decoration:none;
+    color: #570F13;
+    border: transparent;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+/* HOMEPAGE */
+
+.bigbox1{
+    height: auto;
+}
+
+.bigbox2 {
+    height: 860px;
+}
+.category1 {
+    float:left;
+    width: 80px;
+    height: 65px;
+    background-color: #D6C4B9;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-top: 0cm;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.categoryimage180px-image {
+    width: 60px;
+    height: 35px;
+    margin:0px 0px 10px 10px;
+}
+.categoryimage80px-image {
+    width: 30px;
+    height: 45px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.categoryimage150px-image {
+    width: 60px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.categoryimage50px-image {
+    width: 25px;
+    height: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 27.5px;
+    margin-right: 27.5px;
+}
+.categoryimage50px{
+    width: 25px;
+    height: 45px;
+    margin: 0px;
+}
+.categoryimage150px {
+    width: 60px;
+    height: 35px;
+    margin:0px;;
+}
+.categoryimage180px {
+    width: 60px;
+    height: 35px;
+    margin:0px
+}
+.categoryimage80px {
+    width: 30px;
+    height: 45px;
+    margin: 0px;
+}
+.category-name {
+    font-size: 10px;
+    text-align:center;}
+.featured {
+        width: 360px;
+        height: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+.featued-info{
+    float: left;
+    width: 140px;
+}
+.picture{float: left;
+        width: 190px;
+        height: 190px;
+    }
+.productname {
+    text-align: center;
+    font-family: Century Gothic regular;
+    font-size: 16px;
+    color: #570F13;
+    margin: 50px;}
+.productprice{
+    text-align: center;
+        font-family: Century Gothic Regular;
+        font-size: 18px;
+        color: #570F13;
+        margin:50px}    
+.button {
+    width: 60px;
+    margin: 10px 10px 0px 150px;
+}
+.picture-mobilesize {
+    width: 190px;
+    height: 190px;
+}
+/* payment */
+.box {
+    height: 800px;
+}
+.order-information{
+    display: none;
+}
+.info-register {
+    width:420px;
+    height: auto;
+    margin-top: 20px;
+}
+.info-register-boxline{
+    width: 280px;
+    height: 30px;
+    border: 1px solid #570F13;
+    margin-bottom: 20px;
+}
+h2{
+    width: 280px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 20px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin: 0px;
+}
+.nextbutton{
+    display: inline-block;
+    float: left;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 28px;
+    text-decoration:none;
+    color: #570F13;
+    margin-top: 70px;
+    margin-left: 97.5px;
+    border-radius: 40px;
+}
+.delivery-choice {
+    color: #570F13;
+    font-size: 18px;
+    font-family: Century Gothic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+/* cart */
+.itemone{
+    height: 180px;
+    border: solid 3px transparent;
+    border-top-color:#570F13;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.itemtwo{
+    height: 180px;
+    border: solid 3px transparent;
+    border-bottom-color: #570F13;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item-info{
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.itempicture{
+    float: left;
+    width: 100px;
+    height:100px;
+    margin:20px 0px 0px 0px;
+}
+.itemtext-cart {
+    width: 150px;
+    font-size: 16px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin: 0px;
+}
+.trash {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 70px 20px 0px 20px;
+}
+.totalprice {
+    height: 20px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    color:#570F13;
+    margin-left: 260px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.enterbox {
+    width: 180px;
+    height: 20px;
+    border: solid 3px #570F13;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+/* search box */
+.searchbox {
+    height:100px;
+}
+.searchbox-line {
+    float: left;
+    width: 200px;
+    height: 30px;
+    background-color: #D6C4B9;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 40px;
+    border: 3px solid #570F13;
+}
+.icon-search {
+    float: left;
+margin: 30px 0px 0px 20px;
+}
+.icon-search-mobile{
+width:30px ;
+height: 30px;
+}
+/* product list */
+.leftbox {
+    display: none;
+}
+.leftbox1 {
+    display: none;
+}
+.leftbox2 {
+display: none;
+}
+.leftbox-mobile{
+    width: 420px;
+    height: 30px;
+    border:2px solid #570F13;
+    border-top-color:transparent ;
+}
+.leftbox-FILTER-mobile{
+    float: left;
+    width: 204px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #570F13;
+    border:2px solid transparent ;
+    border-right-color:#570F13;
+}
+.leftbox-SORT-mobile{
+    float: left;
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #570F13;
+}
+.product-list{
+    width: 420px;
+    margin-top: 20px;
+}
+.product-list1{
+    float: left;
+    width: 180px;
+    height: 320px;
+    background-color: white;
+    margin:0px 20px 5px 5px;
+}
+.product-list2{
+    float: left;
+    width: 180px;
+    height: 320px;
+    background-color: white;
+    margin:0px 20px 5px 5px;
+}
+.product-list3{
+    float: left;
+    width: 180px;
+    height: 320px;
+    background-color: white;
+    margin:0px 20px 5px 5px;
+}
+.product-list4{
+    float: left;
+    width: 180px;
+    height: 320px;
+    background-color: white;
+    margin:0px 20px 5px 5px;
+}
+.product-list-picture{
+    margin:0px
+}
+.product-list-picture-mobile{
+    width: 190px;
+    height: 190px;
+}
+.product-list-picture img:hover{
+    transform: scale(1.1);
+}
+.poductlist-name{
+    font-size: 18px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 10px;
+}
+.poductlist-price {
+    font-size: 18px;
+    color:#570F13;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.poductlist-color{
+display: none;
+}
+.addtocart-button{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 5px;
+    text-decoration:none;
+    color: #570F13;
+    margin:10px 10px 45px 45px;
+    border-radius: 40px;
+}
+.poductlist-colorspot{
+display: none;
+}
+.seemore-button{
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 20px;
+    color: #570F13;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left:135px;
+    margin-right:135px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+/* individual */
+.individualproduct {
+    float: left;
+    width: 380px;
+    height: 440px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.productpicturelarge {
+    width: 380px;
+    height: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.productpicturelarge-mobile{
+    width: 380px;
+    height: 380px;
+}
+.productpicturesmall {
+    width: 380px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.productpicturesmall-mobile{
+    width: 90px;
+    height: 90px;
+}
+.productinfo-box {
+    width: 420px;
+    height: 600px;
+    margin-top: 30px;
+}
+.itemtext {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.poductlist-colorspot-individual{
+    width: 300px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+.quantitytext {
+    width: 150px;
+    height: 20px;
+    font-size: 20px;
+    font-family:Century Gothic;
+    color:#570F13;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.quantitybutton {
+    width: 150px;
+    height: 20px;
+    background-color:#D6C4B9;
+    margin-bottom: 50px;
+    margin-left: 115px;
+    margin-right: 115px;
+    border-radius: 40px;
+}
+
+.addtocart-button-large{
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    font-family: Century Gothic;
+    background-color: #D6C4B9;
+    font-size: 20px;
+    text-decoration:none;
+    color: #570F13;
+    margin-top: 20px;
+    margin-left: 115px;
+    margin-right: 115px;
+    border-radius: 40px;
+}
+.dimension-box{
+    width: 420px;
+    height: 1000px;
+    background-color: #D6C4B9;
+}
+.dimension{
+    float: left;
+    width: 900px;
+    height: 510px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #570F13;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.dimensionpicture{
+    width: 400px;
+    height: 420px;
+}
+.bigbox2-individual{
+    display: none;
+}
+}

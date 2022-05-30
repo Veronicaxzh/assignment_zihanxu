@@ -1,0 +1,134 @@
+body {background-color:#F4EEE8;
+}
+.w {
+    width:1920px;
+    margin: auto;
+}
+.header {
+    height: 70px;
+    background-color: #570F13;
+}
+.logo {
+    float: left;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 40px;
+    color:#F4EEE8;
+    font-family: Gotham Bold;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+li{
+    list-style: none;
+    font-family: Gotham Bold;
+}
+.nav{
+    float: left;
+}
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 70px;
+    padding: 0 10px;
+    line-height: 35px;
+    font-size: 28px;
+    color:#F4EEE8;
+    text-decoration: none;
+}
+.nav ul li a:hover {
+    border-bottom:3px solid #570F13;
+}
+.icon {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.icon a {
+    margin-left: 20px;
+}
+.searchbox {
+    height:100px;
+}
+.searchbox-line {
+    float: left;
+    width: 700px;
+    height: 70px;
+    background-color: #D6C4B9;
+    margin-left: 590px;
+    border-radius: 40px;
+    border: 3px solid #570F13;
+}
+.icon-search {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/* 隐藏菜单 */
+.toggle-btn{
+    display: none;
+}
+
+.backbutton{
+    display: inline-block;
+    float: left;
+    color: #570F13;
+    text-decoration: none;
+}
+.footer {
+    height: 640px;
+    background-color: #570F13;
+    margin-top: 100px;
+}
+.line {
+    height: 60px;
+    background-color:#F4EEE8;
+    border: solid 3px transparent;
+    border-top-color:#570F13;
+}
+.brandicon {    
+    width: 600px;
+    height:140px;
+    margin-left: 640px;
+    margin-right: 640px;
+}
+.brandicon-image{
+    float: left;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.servicename-box{
+    width: 1880px;
+    height: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.servicename {
+    float: left;
+    width: 260px;
+    height: 350px;
+    margin-left:100px;
+    margin-right: 183px;
+}
+.servicename p{
+    font-family: Century Gothic Regular;
+    font-size: 28px;
+    color: #F4EEE8;
+    padding: 10px;
+}
+.caption {
+    width:1880px;
+    height: 110px;
+    margin-top: 20px;
+
+}
+.caption p {
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    color: #F4EEE8;
+}
